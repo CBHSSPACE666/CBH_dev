@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on 演示站点</title>
+        <title>Posts on CBH的学习空间</title>
         <link>https://CBHSSPACE666.github.io/CBH_dev/post/</link>
-        <description>Recent content in Posts on 演示站点</description>
+        <description>Recent content in Posts on CBH的学习空间</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>ChangBaoHeng</copyright>
-        <lastBuildDate>Sat, 18 Oct 2025 12:27:56 +0800</lastBuildDate><atom:link href="https://CBHSSPACE666.github.io/CBH_dev/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 18 Oct 2025 18:37:06 +0800</lastBuildDate><atom:link href="https://CBHSSPACE666.github.io/CBH_dev/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Diffusion Models1</title>
         <link>https://CBHSSPACE666.github.io/CBH_dev/p/diffusion-models1/</link>
         <pubDate>Sat, 18 Oct 2025 10:26:50 +0800</pubDate>
         
         <guid>https://CBHSSPACE666.github.io/CBH_dev/p/diffusion-models1/</guid>
-        <description></description>
+        <description>&lt;img src="https://CBHSSPACE666.github.io/CBH_dev/diffusion-model.jpg" alt="Featured image of post Diffusion Models1" /&gt;</description>
         </item>
         <item>
-        <title>我测试一下</title>
-        <link>https://CBHSSPACE666.github.io/CBH_dev/p/%E6%88%91%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B/</link>
+        <title>简单说两句</title>
+        <link>https://CBHSSPACE666.github.io/CBH_dev/p/%E7%AE%80%E5%8D%95%E8%AF%B4%E4%B8%A4%E5%8F%A5/</link>
         <pubDate>Thu, 16 Oct 2025 22:10:18 +0800</pubDate>
         
-        <guid>https://CBHSSPACE666.github.io/CBH_dev/p/%E6%88%91%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B/</guid>
-        <description></description>
+        <guid>https://CBHSSPACE666.github.io/CBH_dev/p/%E7%AE%80%E5%8D%95%E8%AF%B4%E4%B8%A4%E5%8F%A5/</guid>
+        <description>&lt;img src="https://CBHSSPACE666.github.io/CBH_dev/p/%E7%AE%80%E5%8D%95%E8%AF%B4%E4%B8%A4%E5%8F%A5/blog1.jpg" alt="Featured image of post 简单说两句" /&gt;&lt;h2 id=&#34;本网站描述&#34;&gt;本网站描述
+&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;也算是我正儿八经搭建的第一个有实用性的网页了。其实主要还是任务驱动hhh，毕竟研究生的事儿还是不少的，
+我需要一个可以记录的东西，之前使用过Typora编辑，而付费后我就没再使用过，所以也算是重新记录我的学习之
+路吧。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;详细的网站部署和细节优化可以参考&lt;a class=&#34;link&#34; href=&#34;https://letere-gzj.github.io/hugo-stack/p/hugo/custom-blog/&#34;  title=&#34;letere一个二次元大佬&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo+GitHub Pages&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;关于博客&#34;&gt;关于博客
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;我打算记录一下我的学习记录，方向基本已经确定了，我应该是研究扩散模型来进行某些数据补全的。当然，
+不知之后会不会让我使用流模型，所以会记录一下，毕竟“好记性不如烂笔头”，但我也缺些好记性罢了嘿嘿。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这是一个我找图片的网页&lt;a class=&#34;link&#34; href=&#34;https://pixabay.com/zh/photos/search/%e5%8d%9a%e5%ae%a2%e8%83%8c%e6%99%af/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&amp;ldquo;link之看心情选择&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Markdown Syntax Guide</title>
@@ -251,37 +265,6 @@
     &gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Emoji Support</title>
-        <link>https://CBHSSPACE666.github.io/CBH_dev/p/emoji-support/</link>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://CBHSSPACE666.github.io/CBH_dev/p/emoji-support/</guid>
-        <description>&lt;img src="https://CBHSSPACE666.github.io/CBH_dev/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
-&lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/functions/emojify/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/configuration/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙈&lt;/span&gt; &lt;code&gt;:see_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙉&lt;/span&gt; &lt;code&gt;:hear_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙊&lt;/span&gt; &lt;code&gt;:speak_no_evil:&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;http://www.emoji-cheat-sheet.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.emoji {
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
 &lt;/div&gt;</description>
         </item>
         

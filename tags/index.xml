@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tags on 演示站点</title>
+        <title>Tags on CBH的学习空间</title>
         <link>https://CBHSSPACE666.github.io/CBH_dev/tags/</link>
-        <description>Recent content in Tags on 演示站点</description>
+        <description>Recent content in Tags on CBH的学习空间</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>ChangBaoHeng</copyright>
@@ -37,14 +37,6 @@
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
         <guid>https://CBHSSPACE666.github.io/CBH_dev/tags/themes/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Emoji</title>
-        <link>https://CBHSSPACE666.github.io/CBH_dev/tags/emoji/</link>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://CBHSSPACE666.github.io/CBH_dev/tags/emoji/</guid>
         <description></description>
         </item>
         
