@@ -10,7 +10,7 @@
 <meta property='og:description' content="Sample article showcasing basic Markdown syntax and formatting for HTML elements.">
 <meta property='og:url' content='https://CBHSSPACE666.github.io/CBH_dev/p/markdown-syntax-guide/'>
 <meta property='og:site_name' content='演示站点'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='markdown' /><meta property='article:tag' content='css' /><meta property='article:tag' content='html' /><meta property='article:tag' content='themes' /><meta property='article:published_time' content='2019-03-11T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2019-03-11T00:00:00&#43;00:00'/><meta property='og:image' content='https://CBHSSPACE666.github.io/CBH_dev/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='markdown' /><meta property='article:tag' content='css' /><meta property='article:tag' content='html' /><meta property='article:tag' content='themes' /><meta property='article:published_time' content='2019-03-11T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-16T15:50:23&#43;08:00'/><meta property='og:image' content='https://CBHSSPACE666.github.io/CBH_dev/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg' />
 <meta name="twitter:title" content="Markdown Syntax Guide">
 <meta name="twitter:description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements."><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://CBHSSPACE666.github.io/CBH_dev/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg' />
@@ -408,11 +408,13 @@
 <h4 id="blockquote-without-attribution">Blockquote without attribution
 </h4><blockquote>
 <p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p></blockquote>
+<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
+</blockquote>
 <h4 id="blockquote-with-attribution">Blockquote with attribution
 </h4><blockquote>
 <p>Don&rsquo;t communicate by sharing memory, share memory by communicating.<br>
-— <cite>Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p></blockquote>
+— <cite>Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
+</blockquote>
 <h2 id="tables">Tables
 </h2><p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
 <div class="table-wrapper"><table>
@@ -630,7 +632,31 @@
     </section>
 
 
-    </footer>
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>根据 CC BY-NC-SA 4.0 协议授权，转载请在留言板告知。</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 Oct 16, 2025 15:50 &#43;0800
+        </span>
+    </section></footer>
 
 
     
@@ -669,20 +695,60 @@
      
     
         
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="CBHSSPACE666/giscus"
+    data-repo-id="R_kgDOQEpTfA"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOQEpTfM4CwyHM"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light"
+    data-lang="zh-CN"
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
     
 
-    <footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-        2025 ChangBaoHeng
-    </section>
     
-    <section class="powerby">
-        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.31.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
-    </section>
-</footer>
 
 
     
@@ -781,6 +847,207 @@
         document.head.appendChild(customFont);
     }());
 </script>
+
+<script>
+  const cdnPath = "https://cdn.jsdelivr.net/gh/letere-gzj/live2d-widget-v3@main";
+  const config = {
+    
+    path: {
+      homePath: "/",
+      modelPath: cdnPath + "/Resources/",
+      cssPath: cdnPath + "/waifu.css",
+      tipsJsonPath: cdnPath + "/waifu-tips.json",
+      tipsJsPath: cdnPath + "/waifu-tips.js",
+      live2dCorePath: cdnPath + "/Core/live2dcubismcore.js",
+      live2dSdkPath: cdnPath + "/live2d-sdk.js"
+    },
+    
+    tools: ["hitokoto", "asteroids", "express", "switch-model", "switch-texture", "photo", "info", "quit"],
+    
+    drag: {
+      enable: true,
+      direction: ["x", "y"]
+    },
+    
+    switchType: "order"
+  }
+
+  
+  if (screen.width >= 768) {
+    Promise.all([
+      loadExternalResource(config.path.cssPath, "css"),
+      loadExternalResource(config.path.live2dCorePath, "js"),
+      loadExternalResource(config.path.live2dSdkPath, "js"),
+      loadExternalResource(config.path.tipsJsPath, "js")
+    ]).then(() => {
+      initWidget({
+        waifuPath: config.path.tipsJsonPath,
+        cdnPath: config.path.modelPath,
+        tools: config.tools,
+        dragEnable: config.drag.enable,
+        dragDirection: config.drag.direction,
+        switchType: config.switchType
+      });
+    });
+  }
+
+  
+  function loadExternalResource(url, type) {
+    return new Promise((resolve, reject) => {
+      let tag;
+      if (type === "css") {
+        tag = document.createElement("link");
+        tag.rel = "stylesheet";
+        tag.href = url;
+      }
+      else if (type === "js") {
+        tag = document.createElement("script");
+        tag.src = url;
+      }
+      if (tag) {
+        tag.onload = () => resolve(url);
+        tag.onerror = () => reject(url);
+        document.head.appendChild(tag);
+      }
+    });
+  }
+
+</script>
+
+
+<style>
+  body {
+    background: url(https://CBHSSPACE666.github.io/CBH_dev/background/background1.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+</style>
+
+<script src=https://CBHSSPACE666.github.io/CBH_dev/background/sakura.js></script>
+
+<style>
+    #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 60px;
+	right: 700px;
+        z-index: 99;
+        cursor: pointer;
+        width: 70px;
+        height: 70px;
+        background-image: url(https://CBHSSPACE666.github.io/CBH_dev/icons/backTop.svg);
+    }
+</style>
+
+<script>
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
+</script>
+
+
+<script
+    src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+    integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+    crossorigin="anonymous"
+></script>
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+    integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+    crossorigin="anonymous"
+/>
+<script>
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
+</script>
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
+</script>
+
+
+<script
+    src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+    async
+></script>
+
+
+
 
     </body>
 </html>

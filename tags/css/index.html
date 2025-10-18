@@ -10,7 +10,7 @@
 <meta property='og:description' content="欢迎一起学习！">
 <meta property='og:url' content='https://CBHSSPACE666.github.io/CBH_dev/tags/css/'>
 <meta property='og:site_name' content='演示站点'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-10-16T22:10:18&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-10-18T12:27:56&#43;08:00 '/>
 <meta name="twitter:title" content="Tag: Css - 演示站点">
 <meta name="twitter:description" content="欢迎一起学习！"><link rel="alternate" type="application/rss&#43;xml" href="https://CBHSSPACE666.github.io/CBH_dev/tags/css/index.xml">
     <link rel="shortcut icon" href="/CBH_dev/ai.ico" />
@@ -268,15 +268,7 @@
                     <a href="/CBH_dev/archives/#2025">
                         
                             <span class="year">2025</span>
-                            <span class="count">1</span>
-                        
-                    </a> 
-                </div>
-            <div class="archives-year">
-                    <a href="/CBH_dev/archives/#2020">
-                        
-                            <span class="year">2020</span>
-                            <span class="count">1</span>
+                            <span class="count">2</span>
                         
                     </a> 
                 </div>
@@ -284,7 +276,7 @@
                     <a href="/CBH_dev/archives/#2019">
                         
                             <span class="year">2019</span>
-                            <span class="count">4</span>
+                            <span class="count">2</span>
                         
                     </a> 
                 </div>
@@ -311,24 +303,16 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/CBH_dev/categories/test/" class="font_size_3">
-                Test
-            </a>
-        
             <a href="/CBH_dev/categories/syntax/" class="font_size_1">
                 Syntax
             </a>
         
-            <a href="/CBH_dev/categories/test-with-whitespaces/" class="font_size_1">
-                Test With Whitespaces
+            <a href="/CBH_dev/categories/test/" class="font_size_1">
+                Test
             </a>
         
             <a href="/CBH_dev/categories/themes/" class="font_size_1">
                 Themes
-            </a>
-        
-            <a href="/CBH_dev/categories/%E6%B5%8B%E8%AF%95/" class="font_size_1">
-                测试
             </a>
         
     </div>
@@ -379,18 +363,7 @@
 </article>
         
     </section>
-<footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-        2025 ChangBaoHeng
-    </section>
-    
-    <section class="powerby">
-        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.31.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
-    </section>
-</footer>
+
 
 
             </main>
@@ -411,6 +384,207 @@
         document.head.appendChild(customFont);
     }());
 </script>
+
+<script>
+  const cdnPath = "https://cdn.jsdelivr.net/gh/letere-gzj/live2d-widget-v3@main";
+  const config = {
+    
+    path: {
+      homePath: "/",
+      modelPath: cdnPath + "/Resources/",
+      cssPath: cdnPath + "/waifu.css",
+      tipsJsonPath: cdnPath + "/waifu-tips.json",
+      tipsJsPath: cdnPath + "/waifu-tips.js",
+      live2dCorePath: cdnPath + "/Core/live2dcubismcore.js",
+      live2dSdkPath: cdnPath + "/live2d-sdk.js"
+    },
+    
+    tools: ["hitokoto", "asteroids", "express", "switch-model", "switch-texture", "photo", "info", "quit"],
+    
+    drag: {
+      enable: true,
+      direction: ["x", "y"]
+    },
+    
+    switchType: "order"
+  }
+
+  
+  if (screen.width >= 768) {
+    Promise.all([
+      loadExternalResource(config.path.cssPath, "css"),
+      loadExternalResource(config.path.live2dCorePath, "js"),
+      loadExternalResource(config.path.live2dSdkPath, "js"),
+      loadExternalResource(config.path.tipsJsPath, "js")
+    ]).then(() => {
+      initWidget({
+        waifuPath: config.path.tipsJsonPath,
+        cdnPath: config.path.modelPath,
+        tools: config.tools,
+        dragEnable: config.drag.enable,
+        dragDirection: config.drag.direction,
+        switchType: config.switchType
+      });
+    });
+  }
+
+  
+  function loadExternalResource(url, type) {
+    return new Promise((resolve, reject) => {
+      let tag;
+      if (type === "css") {
+        tag = document.createElement("link");
+        tag.rel = "stylesheet";
+        tag.href = url;
+      }
+      else if (type === "js") {
+        tag = document.createElement("script");
+        tag.src = url;
+      }
+      if (tag) {
+        tag.onload = () => resolve(url);
+        tag.onerror = () => reject(url);
+        document.head.appendChild(tag);
+      }
+    });
+  }
+
+</script>
+
+
+<style>
+  body {
+    background: url(https://CBHSSPACE666.github.io/CBH_dev/background/background1.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+</style>
+
+<script src=https://CBHSSPACE666.github.io/CBH_dev/background/sakura.js></script>
+
+<style>
+    #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 60px;
+	right: 700px;
+        z-index: 99;
+        cursor: pointer;
+        width: 70px;
+        height: 70px;
+        background-image: url(https://CBHSSPACE666.github.io/CBH_dev/icons/backTop.svg);
+    }
+</style>
+
+<script>
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
+</script>
+
+
+<script
+    src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+    integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+    crossorigin="anonymous"
+></script>
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+    integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+    crossorigin="anonymous"
+/>
+<script>
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
+</script>
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
+</script>
+
+
+<script
+    src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+    async
+></script>
+
+
+
 
     </body>
 </html>
