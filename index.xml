@@ -5,14 +5,18 @@
         <link>https://CBHSSPACE666.github.io/CBH_dev/</link>
         <description>Recent content on CBH的学习空间</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <language>en-us</language>
         <copyright>ChangBaoHeng</copyright><atom:link href="https://CBHSSPACE666.github.io/CBH_dev/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Diffusion Models1</title>
         <link>https://CBHSSPACE666.github.io/CBH_dev/p/diffusion-models1/</link>
         <pubDate>Sat, 18 Oct 2025 10:26:50 +0800</pubDate>
         
         <guid>https://CBHSSPACE666.github.io/CBH_dev/p/diffusion-models1/</guid>
-        <description>&lt;img src="https://CBHSSPACE666.github.io/CBH_dev/diffusion-model.jpg" alt="Featured image of post Diffusion Models1" /&gt;</description>
+        <description>&lt;img src="https://CBHSSPACE666.github.io/CBH_dev/blog3.jpg" alt="Featured image of post Diffusion Models1" /&gt;&lt;p&gt;声明一下，本人纯小白，也是接触扩散模型不久，文章对于扩散模型的主要理解，是基于苏剑林大神的有关扩散模型的&lt;a class=&#34;link&#34; href=&#34;https://kexue.fm/tag/%E6%89%A9%E6%95%A3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;科学空间&lt;/a&gt;，不得不赞叹大神对问题的理解角度；同时，也回顾了一下有关&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/573385147&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;信息熵和KL散度&lt;/a&gt;的内容，找的知乎上赞同还算相对较高的文章，言简意赅，适合初学者。&lt;/p&gt;
+&lt;h2 id=&#34;扩散模型diffusion-models&#34;&gt;扩散模型（Diffusion Models）
+&lt;/h2&gt;</description>
         </item>
         <item>
         <title>简单说两句</title>
@@ -214,7 +218,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git = &amp;#34;https://github.com/bevyengine/bevy&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rev = &amp;#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;- features = [&amp;#34;dynamic&amp;#34;]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gi&#34;&gt;+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gi&#34;&gt;+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;list-types&#34;&gt;List Types
